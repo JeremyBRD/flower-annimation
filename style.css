@@ -19,6 +19,11 @@ body {
   width: 100vw;
   height: 100vh;
 }
+@media screen and (max-width: 900px){
+  .container {
+      height: 60vh;
+  }
+}
 
 h1 {
   font-family: "Prata";
@@ -47,7 +52,7 @@ h1 {
 
 img {
   position: absolute;
-  transform: translate(0%, -50%);
+  transform: translate(0%, -50%) scale(0);
   top: 55%;
 }
 
